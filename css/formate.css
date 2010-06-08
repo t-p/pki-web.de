@@ -6,47 +6,41 @@ body {
     font: small Verdana, Arial, Helvetica, sans-serif; }
  
 div#wrap-all {
-    width: 795px;
-    margin-right: auto;
-    margin-left: auto;
+    display: block;
+    width: 995px;
+    margin: 20px auto 0px auto;
     border: 1px solid #9B8748;
     background: #FFF;
-    position: relative;
-    text-align: left;
-    margin-top: 20px; }
+    position: relative; }
 
 * html #wrap-all {
     height: 100%;
-    width: 797px;
-    w\idth: 795px; }
-
+    width: 997px;
+    w\idth: 995px; }
 /*
  * header
  */
-
 #header {
     position: relative;
-    height: 105px;
+    height: 135px;
     background: #2A3E86; }
 
 #header h1 {
+    text-align: left;
     margin: 0;
-    padding: 23px 0 0 35px;
+    padding: 35px 0 0 120px;
     font-family: 'Times New Roman', serif;
-    font-size: 2.8em; 
+    font-size: 3.0em; 
     color: #F0F0F0; }
 
 #header img {
     position: absolute;
-    top: 13px;
-    right: 13px; }
+    top: 25px;
+    right: 20px; }
 
 #nav-top {
-    position: absolute;
     float: left;
-    margin: 0;
-    bottom: 0;
-    padding-left: 235px;
+    margin: 33px 0 0 250px;
     list-style: none;
     white-space: nowrap; }
 
@@ -104,9 +98,8 @@ div#wrap-all {
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 /*
-/* nav-lang zwischen header und content
+ * nav-lang zwischen header und content
  */
-
 #nav-lang {
     position: relative;  
     float: right;
@@ -116,7 +109,7 @@ div#wrap-all {
 #nav-lang ul {
     list-style: none;
     margin: 0;
-    padding: 6px 13px 0 0; }
+    padding: 6px 20px 0 0; }
     
 #nav-lang li {
     float: right;
@@ -130,64 +123,59 @@ div#wrap-all {
 #nav-lang img {
     padding: 0;
     border: none; }
-    
 /*
  * content
  */
 #content {
     float: left;
-    width: 570px;
-    margin: 20px 0;
-/*    border-right: 1px solid #c7b477;*/ }
+    width: 72%;
+    margin-right: 5%; }
 
 #content h1 {
     text-align: center;
-    margin: 15px 0;
-    padding: 0;
-    font-size: 114%;
+    margin-top: 40px;
+    font-size: 105%;
     color: #333; }
 
 #content h2 {
-    margin: 0 15px;
-    padding: 15px 0 1px 10px;
+    text-align: left;
+    margin: 50px 0 0 80px;
+    padding: 0 0 1px 10px;
     font-size: 100%;
     color: #333;
     border-bottom: 1px dotted #9B8748; }
     
 #content p {
-    margin: 0 15px;
-    padding: 10px 0 0 15px;
+    text-align: left;
+    margin-left: 95px;
     font-size: 90%; }
 
-#content p#top_space {
-    padding-top: 10px; }
-
-#content p#bottom_space {
-    padding-bottom: 30px; }
-    
-#content p.desc_image {
-    font-size: 75%;
-    margin: 15px 0 0 75px;
-    padding: 0; }
-
 #content .li-produkt {
-    margin: 10px 0 10px 55px;
-    padding: 0;
+    text-align: left;
+    margin: 10px 0 10px 120px;
     font-size: 90%;
     list-style: square; }
 
-#content img {
-    margin: 0 0 25px 0;
-    padding: 15px 0 0 25px; }
+#content p.bottom_space {
+    padding-bottom: 30px; }
+    
+#content .pic_pki_start {
+    margin: 70px 0 0 90px; }
 
-#content img.kabine {
-    margin: 0 0 35px 75px;
+#content .pic_kabine {
+    text-align: left;
+    font-size: 75%;
+    margin: 80px 130px; }
+
+#content .pic_kabine dd {
+    margin: 0; }
+
+#content .pic_kabine img {
     padding: 1px 1px;
     border: 1px solid #c7b477; }
     
 #content table.ref {
-    margin: 0 15px;
-    padding: 15px 0; }
+    margin: 50px 0 30px 30px; }
     
 #content table.ref tr.odd {
     background: #E6E6E6; }
@@ -203,24 +191,21 @@ div#wrap-all {
     text-align: center; }
     
 #content table.kontakt {
-    width: 100%;
-    margin: 0;
-    padding: 0px 15px; }
+    width: 640px;
+    margin: 30px 0 0 80px; }
     
 #content table.kontakt th {
-    margin: 0 25px;
-    padding: 10px 5px 3px 10px;
+    margin: 0;
+    padding: 0 0 3px 10px;
     text-align: left;
     border-bottom: 1px dotted #9B8748; }
     
 #content table.kontakt td {
-    margin: 0 10px;
-    padding: 1px 15px;
+    padding: 1px 0 0 15px;
     text-align: left; }
 
 #content p#required {
-    font-size: 80%;
-    padding: 1px 0 10px 15px; }
+    font-size: 80%; }
     
 #content span.asterisk {
     font-size: 110%; color: red; }
@@ -231,7 +216,8 @@ div#wrap-all {
     
 #content input.btn {
     border: 1px outset gray;
-    margin-left: 20%; }
+    margin-left: 20%;
+    margin-bottom: 30px; }
     
 #content form p {
     clear: left;
@@ -249,64 +235,52 @@ div#wrap-all {
 
 #content .adresse {
     font-size: 90%;
-    padding: 0 0 0 22px;
+    margin-left: 80px;
     list-style: none; }
 
 #content .adresse li {
-    padding: 2px 0;
-}
+    text-align: left;
+    padding: 1px 0 0 15px; }
 /*
  * sidebar
  */
-
 #sidebar {
     float: right;
-    width: 170px;
-    margin: 0;
-    padding: 5px 14px 20px 0;
-}
+    width: 23%;
+    margin: 20px 0 30px 0; }
 
 #sidebar h3 {
-/*    padding: 43px 0 1px 5px; */
+    text-align: left;
     margin: 40px 0 0 0; 
-    padding: 5px 0 4px 10px;
-/*    margin: 60px 0 0 0;*/
+    padding: 5px 0 4px 14px;
     font-size: 90%;
     color: #f0f0f0;
-/*    border-bottom: 1px dotted #9B8748; */
-    background: url(img/top_box.png) no-repeat top left;
-}
+    background: url(img/top_box.png) no-repeat top left; }
+
 .nav-side {
     width: 100%;
-    background: url(img/bottom_box.gif) no-repeat bottom left;
-}
+    background: url(img/bottom_box.gif) no-repeat bottom left; }
 
 ul.nav-side {
     margin: 0 15px 30px 0;
     padding: 0;
-    list-style: none;
-}
+    list-style: none; }
 
 ul.nav-side li {
-/*    margin: 5px 0 0 10px;*/
+    text-align: left;
     margin: 0;
-    padding: 6px 0 6px 10px;
-}
+    padding: 6px 0 6px 14px; }
 
 ul.nav-side a {
     margin: 0;
     padding: 0;
     font-size: 85%;
     color: #333;
-    text-decoration: none;
-}
+    text-decoration: none; }
 
 ul.nav-side a:hover {
     text-decoration: none;
-    color: #0077a2;
-}
-
-
+    color: #0077a2; }
 /*
  * footer
  */
@@ -315,17 +289,14 @@ ul.nav-side a:hover {
     position: absolute;
     bottom: 0;
     left: 0;
-    background: #2A3E86 url(img/footer_bg.gif) repeat top left;
-}
+    background: #2A3E86 url(img/footer_bg.gif) repeat top left; }
 
 #footer p {
     text-align: center;
     font-size: 75%;
     margin: 0;
-    color: #eee;
-}
+    color: #eee; }
 
 #clearfooter {
     clear: both;
-    width: 100%
-}
+    width: 100% }

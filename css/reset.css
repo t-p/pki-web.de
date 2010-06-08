@@ -23,7 +23,7 @@
     * Only to the few elements that need it: */
 
    li, dd, blockquote {
-   margin-left: 1em;
+/*   margin-left: 1em; */
    }
 
    /* Miscellaneous conveniences: */
