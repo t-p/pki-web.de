@@ -42,7 +42,8 @@ div#wrap-all {
     float: left;
     margin: 33px 0 0 250px;
     list-style: none;
-    white-space: nowrap; }
+    white-space: nowrap;
+    background: #2A3E86 url(img/nav_bg.gif) repeat-x bottom}
 
 #nav-top li {
     float: left;
@@ -64,37 +65,37 @@ div#wrap-all {
 
 #nav-top a:hover, body#home #t-home a {
     color: #333;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#profil #t-profil a {
     color: #334;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#referenz #t-referenz a {
     color: #333;
-    padding-bottom: 4px; 
+    padding-bottom: 5px; 
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#about_us #t-about_us a {
     color: #333;
-    padding-bottom: 4px; 
+    padding-bottom: 5px; 
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#kontakt #t-kontakt a {
     color: #333;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#impressum #t-impressum a {
     color: #333;
-    padding-bottom: 4px;
+    padding-bottom: 5px;
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 /*
