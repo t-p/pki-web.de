@@ -3,7 +3,7 @@ html, body { height: 100%; }
 body {
     text-align: center;
     background: #E5E5E5;
-    font: small Verdana, Arial, Helvetica, sans-serif; }
+    font: small 'Droid', Verdana, Arial, sans-serif; }
  
 div#wrap-all {
     display: block;
@@ -17,30 +17,34 @@ div#wrap-all {
     height: 100%;
     width: 997px;
     w\idth: 995px; }
-/*
- * header
- */
+/* header
+----------*/
 #header {
     position: relative;
     height: 135px;
     background: #2A3E86; }
 
 #header h1 {
+    float: left;
     text-align: left;
     margin: 0;
-    padding: 35px 0 0 120px;
-    font-family: 'Times New Roman', serif;
+    padding: 40px 0 0 120px;
+    font-family: 'Droid Serif', serif;
+    font-weight: bold;
     font-size: 3.0em; 
     color: #F0F0F0; }
 
 #header img {
-    position: absolute;
-    top: 25px;
-    right: 20px; }
+    float: right;
+/*    position: absolute;*/
+    margin: 25px 20px 0 0; }
 
 #nav-top {
-    float: left;
-    margin: 33px 0 0 250px;
+    position: absolute;
+/*    float: left;*/
+/*    margin: 30px 0 0 250px;*/
+    top: 99px;
+    left: 250px;
     list-style: none;
     white-space: nowrap;
     background: #2A3E86 url(img/nav_bg.gif) repeat-x bottom}
@@ -98,9 +102,8 @@ div#wrap-all {
     padding-bottom: 5px;
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
-/*
- * nav-lang zwischen header und content
- */
+/* nav-lang zwischen header und content
+----------*/
 #nav-lang {
     position: relative;  
     float: right;
@@ -124,9 +127,8 @@ div#wrap-all {
 #nav-lang img {
     padding: 0;
     border: none; }
-/*
- * content
- */
+/* content
+----------*/
 #content {
     float: left;
     width: 72%;
@@ -135,26 +137,26 @@ div#wrap-all {
 #content h1 {
     text-align: center;
     margin-top: 40px;
-    font-size: 105%;
+    font-size: 125%;
     color: #333; }
 
 #content h2 {
     text-align: left;
     margin: 50px 0 0 80px;
     padding: 0 0 1px 10px;
-    font-size: 100%;
+    font-size: 110%;
     color: #333;
     border-bottom: 1px dotted #9B8748; }
     
 #content p {
     text-align: left;
     margin-left: 95px;
-    font-size: 90%; }
+    font-size: 105%; }
 
 #content .li-produkt {
     text-align: left;
     margin: 10px 0 10px 120px;
-    font-size: 90%;
+    font-size: 100%;
     list-style: square; }
 
 #content p.bottom_space {
@@ -165,7 +167,7 @@ div#wrap-all {
 
 #content .pic_kabine {
     text-align: left;
-    font-size: 75%;
+    font-size: 90%;
     margin: 80px 130px; }
 
 #content .pic_kabine dd {
@@ -188,7 +190,7 @@ div#wrap-all {
     
 #content td {
     padding: 10px 5px;
-    font-size: 85%;
+    font-size: 95%;
     text-align: center; }
     
 #content table.kontakt {
@@ -198,11 +200,13 @@ div#wrap-all {
 #content table.kontakt th {
     margin: 0;
     padding: 0 0 3px 10px;
+    font-size: 110%;
     text-align: left;
     border-bottom: 1px dotted #9B8748; }
     
 #content table.kontakt td {
     padding: 1px 0 0 15px;
+    font-size: 100%;
     text-align: left; }
 
 #content p#required {
@@ -222,7 +226,7 @@ div#wrap-all {
     
 #content form p {
     clear: left;
-    font-size: 85%; }
+    font-size: 95%; }
     
 #content form p label {
     float: left;
@@ -235,16 +239,15 @@ div#wrap-all {
     background-color: #E6E6E6; }
 
 #content .adresse {
-    font-size: 90%;
+    font-size: 100%;
     margin-left: 80px;
     list-style: none; }
 
 #content .adresse li {
     text-align: left;
     padding: 1px 0 0 15px; }
-/*
- * sidebar
- */
+/* sidebar
+----------*/
 #sidebar {
     float: right;
     width: 23%;
@@ -254,7 +257,7 @@ div#wrap-all {
     text-align: left;
     margin: 40px 0 0 0; 
     padding: 5px 0 4px 14px;
-    font-size: 90%;
+    font-size: 100%;
     color: #f0f0f0;
     background: url(img/top_box.png) no-repeat top left; }
 
@@ -275,16 +278,15 @@ ul.nav-side li {
 ul.nav-side a {
     margin: 0;
     padding: 0;
-    font-size: 85%;
+    font-size: 95%;
     color: #333;
     text-decoration: none; }
 
 ul.nav-side a:hover {
     text-decoration: none;
     color: #0077a2; }
-/*
- * footer
- */
+/* footer
+----------*/
 #footer {
     width:100%;
     position: absolute;
