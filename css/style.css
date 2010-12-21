@@ -10,7 +10,13 @@ div#wrap-all {
     border: 1px solid #9B8748;
     background: #FFF;
     position: relative;
-    min-height: 100%; }
+/*    min-height: 100%; */
+    -moz-border-radius-bottomleft: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    border-bottom-left-radius: 8px; 
+    -moz-border-radius-bottomright: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    border-bottom-right-radius: 8px; }
 
 /* header
 ----------*/
@@ -40,7 +46,7 @@ div#wrap-all {
     position: absolute;
     bottom: 0;
     margin-bottom: 0;
-    left: 250px;
+    left: 280px;
     list-style: none;
     white-space: nowrap;
     background: #2A3E86 url(img/nav_bg.gif) repeat-x bottom; }
@@ -64,37 +70,37 @@ div#wrap-all {
 
 #nav-top a:hover, body#home #t-home a {
     color: #333;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#profil #t-profil a {
     color: #334;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#referenz #t-referenz a {
     color: #333;
-    padding-bottom: 5px; 
+    padding-bottom: 4px; 
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#about_us #t-about_us a {
     color: #333;
-    padding-bottom: 5px; 
+    padding-bottom: 4px; 
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#kontakt #t-kontakt a {
     color: #333;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#impressum #t-impressum a {
     color: #333;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
     border-color: #727377;
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 /* nav-lang zwischen header und content
@@ -160,7 +166,7 @@ div#wrap-all {
     padding-bottom: 30px; }
     
 #content .pic_pki_start {
-    margin: 85px 0 0 75px; }
+    margin: 85px 0 100px 75px; }
 
 #content .pic_kabine {
     text-align: left;
@@ -253,7 +259,7 @@ div#wrap-all {
 
 #sidebar h3 {
     text-align: left;
-    margin: 40px 0 0 25px; 
+    margin: 40px 0 0 35px; 
     padding: 5px 0 2px 14px;
     font-size: 100%;
     color: #f0f0f0;
@@ -264,7 +270,7 @@ div#wrap-all {
     background: url(img/bottom_box.gif) no-repeat bottom left; }
 
 ul.nav-side {
-    margin: 0 15px 30px 25px;
+    margin: 0 15px 30px 35px;
     padding: 0;
     list-style: none; }
 
@@ -285,20 +291,30 @@ ul.nav-side a:hover {
     color: #0077a2; }
 /* footer
 ----------*/
-#footer {
+/*#footer {
     width:100%;
     height: 15px;
     position: absolute;
     bottom: 0;
     left: 0;
     background: #2A3E86 url(img/footer_bg.gif) repeat top left; }
-
+*/
 #footer p {
-    text-align: center;
-    padding-top: 2px;
-    font-size: 75%;
+/*    text-align: center; 
+    display: block; */
+    padding: 10px 0 30px 0;
+    font-size: 80%;
     margin: 0;
-    color: #eee; }
+    color: #333; }
+
+#footer a {
+    color: #333;    
+    text-decoration: none; }
+
+#footer a:hover {
+    text-decoration: none; 
+    color: #0077a2; }
+
 
 #clearfooter {
     clear: both;
