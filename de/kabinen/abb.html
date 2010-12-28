@@ -11,16 +11,21 @@
       <meta name="DC.publisher" content="Thomas Pfeiffer, webmaster@pki-web.de" />
       <meta name="DC.creator" content="Kriemhild Pfeiffer, k.pfeiffer@pki-web.de" />
       <meta name="DC.rights" lang="de" content="http://pki-web.de/de/impressum/index.html" />
-      <meta name="DC.date" scheme="W3CDTF" content="2010-10-23" />
       <link rel="Shortcut Icon" href="/favicon.ico" type="image/x-icon" />
       <style type="text/css">
+         @import url("/css/fancybox/jquery.fancybox-1.3.4.css");
          @import url("/css/960.css");
          @import url("/css/reset.css");
          @import url("/css/text.css");
          @import url("/css/style.css");
       </style>
       <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
-      <script type="text/javascript" src="/js/load_font.js"></script>
+	  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	  <script>
+		 !window.jQuery && document.write('<script src="/js/jquery-1.4.3.min.js"><\/script>');
+	  </script>
+	  <script type="text/javascript" src="/js/jquery.fancybox-1.3.4.pack.js"></script>
+      <script type="text/javascript" src="/js/custom.js"></script>
    </head>
    <body>
       <div class="container_12" id="wrap-all">
@@ -45,22 +50,23 @@
     	 </div> <!-- #nav-lang -->
 
          <div class="grid_9" id="content">  
-            <dl class="pic_kabine">
-		  <dt>F&uuml;hrerkabine f&uuml;r Schaufelradbagger - Matra, Ungarn</dt>
-		  <dd><img src="/img/Buekkabrany.jpg" alt="Kabine f&uuml;r Schaufelradbagger"></img></dd>
-	       </dl>
-	       <dl class="pic_kabine">
-		  <dt>Kabine f&uuml;r Baggerf&uuml;hrerstand - Tagebau Drmno, Serbien</dt>
-		  <dd><img src="/img/abb.jpg" alt="Kabine Bandw&auml;rterhaus"></img></dd>
-	       </dl>
-	       <dl class="pic_kabine">
-		  <dt>Kabine f&uuml;r Baggerf&uuml;hrerstand - Tagebau Drmno, Serbien</dt>
-		  <dd><img src="/img/abb_03.jpg" alt="Kabine Bandw&auml;rterhaus"></img></dd>
-	       </dl>
-	       <dl class="pic_kabine">
-		  <dt>Kabine f&uuml;r Bandanlage - Tagebau Drmno, Serbien</dt>
-		  <dd><img class="kabine" src="/img/abb_02.jpg" alt="Kabine Bandw&auml;rterhaus"></img></dd>
-	       </dl>
+            <h2>Bandanlagen, Absetzer und Bagger</h2>
+            <p class="pic_kabinen">
+                <a rel="cabin_group" href="/img/schaufelradbagger_matra_01.jpg" title="F&uuml;hrerkabinen für Schaufelradbagger und Bandwagen - Matra, Ungarn"><img alt="Kabine Schaufelradbagger Matra, Ungarn" src="/img/small/schaufelradbagger_matra_01_small.jpg" /> </a>
+                <a rel="cabin_group" href="/img/schaufelradbagger_matra_02.jpg" title="F&uuml;hrerkabinen für Schaufelradbagger und Bandwagen - Matra, Ungarn"><img alt="Kabine Schaufelradbagger Matra, Ungarn" src="/img/small/schaufelradbagger_matra_02_small.jpg" /> </a>
+                <a rel="cabin_group" href="/img/schaufelradbagger_matra_03.jpg" title="F&uuml;hrerkabinen für Schaufelradbagger und Bandwagen - Matra, Ungarn"><img alt="Kabine Schaufelradbagger Matra, Ungarn" src="/img/small/schaufelradbagger_matra_03_small.jpg" /> </a>
+                <a rel="cabin_group" href="/img/schaufelradbagger_matra_04.jpg" title="F&uuml;hrerkabinen für Schaufelradbagger und Bandwagen - Matra, Ungarn"><img alt="Kabine Schaufelradbagger Matra, Ungarn" src="/img/small/schaufelradbagger_matra_04_small.jpg" /> </a>
+                <a rel="cabin_group" href="/img/schaufelradbagger_matra_05.jpg" title="F&uuml;hrerkabinen für Schaufelradbagger und Bandwagen - Matra, Ungarn"><img alt="Kabine Schaufelradbagger Matra, Ungarn" src="/img/small/schaufelradbagger_matra_05_small.jpg" /> </a>
+                <a rel="cabin_group" href="/img/schaufelradbagger_matra_06.jpg" title="F&uuml;hrerkabinen für Schaufelradbagger und Bandwagen - Matra, Ungarn"><img alt="Kabine Schaufelradbagger Matra, Ungarn" src="/img/small/schaufelradbagger_matra_06_small.jpg" /> </a>
+		        <a rel="cabin_group" href="/img/bagger_drmno_04.jpg" title="Kabine f&uuml;r Baggerf&uuml;hrerstand - Tagebau Drmno, Serbien"><img alt="Kabine Bagger Drmno, Serbien" src="/img/small/bagger_drmno_04_small.jpg" /></a>
+		        <a rel="cabin_group" href="/img/bagger_drmno_05.jpg" title="Kabine f&uuml;r Baggerf&uuml;hrerstand - Tagebau Drmno, Serbien"><img alt="Kabine Bagger Drmno, Serbien" src="/img/small/bagger_drmno_05_small.jpg" /></a>
+		        <a rel="cabin_group" href="/img/bagger_drmno_01.jpg" title="F&uuml;hrerkabine f&uuml;r Absetzer - Tagebau Tamnava, Serbien"><img alt="Kabine Bagger Drmno, Serbien" src="/img/small/bagger_drmno_01_small.jpg" /></a>
+		        <a rel="cabin_group" href="/img/bagger_drmno_02.jpg" title="F&uuml;hrerkabine f&uuml;r Absetzer - Tagebau Tamnava, Serbien"><img alt="Kabine Bagger Drmno, Serbien" src="/img/small/bagger_drmno_02_small.jpg" /></a>
+                <a rel="cabin_group" href="/img/bagger_drmno_03.jpg" title="Kabine f&uuml;r Baggerf&uuml;hrerstand - Tagebau Drmno, Serbien"><img alt="Kabine Bandanlage Drmno, Serbien" src="/img/small/bagger_drmno_03_small.jpg" /> </a>
+                <a rel="cabin_group" href="/img/bagger_drmno_08.jpg" title="Kabinen f&uuml;r Bandanlage und Absetzer - Tagebau Tamnava, Serbien"><img alt="Kabine Bandanlage Drmno, Serbien" src="/img/small/bagger_drmno_08_small.jpg" /> </a>
+                <a rel="cabin_group" href="/img/bagger_drmno_06.jpg" title="Kabine f&uuml;r Bandanlage - Tagebau Tamnava, Serbien"><img alt="Kabine Bandanlage Drmno, Serbien" src="/img/small/bagger_drmno_06_small.jpg" /> </a>
+                <a rel="cabin_group" href="/img/bagger_drmno_07.jpg" title="Kabinen f&uuml;r Bandanlage und Absetzer - Tagebau Tamnava, Serbien"><img alt="Kabine Bandanlage Drmno, Serbien" src="/img/small/bagger_drmno_07_small.jpg" /> </a>
+            </p>
          </div> <!-- #content -->
 
          <div class="grid_3" id="sidebar">
@@ -88,7 +94,7 @@
       </div> <!-- #wrap-all -->
 
       <div id="footer">
-         <p>Copyright &copy; 2010 P&amp;K Industrietechnik GmbH. All rights reserved. | Tel. 03334 29166 | Email: <a href="mailto:info@pki-web.de">info@pki-web.de</a> | <a href="/de/impressum/">Impressum</a> | <a href="/de/kontakt/">Kontakt</a></p>
+         <p>Copyright &copy; 2011 P&amp;K Industrietechnik GmbH. All rights reserved. | Tel. 03334 29166 | Email: <a href="mailto:info@pki-web.de">info@pki-web.de</a> | <a href="/de/impressum/">Impressum</a> | <a href="/de/kontakt/">Kontakt</a></p>
        </div> <!-- #footer -->
 
 </body>

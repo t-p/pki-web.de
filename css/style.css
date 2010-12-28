@@ -168,18 +168,21 @@ div#wrap-all {
 #content .pic_pki_start {
     margin: 85px 0 100px 75px; }
 
-#content .pic_kabine {
+/*#content .pic_kabine {
     text-align: left;
     font-size: 90%;
     margin: 80px 130px; }
 
 #content .pic_kabine dd {
-    margin: 0; }
+    margin: 0; }*/  
+.pic_kabinen {
+    padding-left: 25px; }
 
-#content .pic_kabine img {
+#content .pic_kabinen img {
     padding: 1px 1px;
+    margin: 10px 8px;
     border: 1px solid #c7b477; }
-    
+
 #content table.ref {
     margin: 50px 0 30px 30px; }
     
