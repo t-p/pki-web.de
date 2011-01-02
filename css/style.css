@@ -154,12 +154,12 @@ div#wrap-all {
 #content p {
     text-align: left;
     margin: 0 0 10px 65px;
-    font-size: 105%; }
+    font-size: 100%; }
 
 #content .li-produkt {
     text-align: left;
     margin: 0 0 30px 80px;
-    font-size: 105%;
+    font-size: 100%;
     list-style: square; }
 
 #content p.bottom_space {
@@ -168,13 +168,6 @@ div#wrap-all {
 #content .pic_pki_start {
     margin: 85px 0 100px 75px; }
 
-/*#content .pic_kabine {
-    text-align: left;
-    font-size: 90%;
-    margin: 80px 130px; }
-
-#content .pic_kabine dd {
-    margin: 0; }*/  
 .pic_kabinen {
     padding-left: 25px; }
 
