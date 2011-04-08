@@ -7,7 +7,7 @@ body {
 div#wrap-all {
     display: block;
     margin: 20px auto 0px auto;
-    border: 1px solid #9B8748;
+/*  border: 1px solid #9B8748; */
     background: #FFF;
     position: relative;
 /*    min-height: 100%; */
@@ -99,6 +99,12 @@ div#wrap-all {
     background: #FFF url(img/on_bg.gif) repeat-x top left; }
 
 #nav-top a:hover, body#impressum #t-impressum a {
+    color: #333;
+    padding-bottom: 4px;
+    border-color: #727377;
+    background: #FFF url(img/on_bg.gif) repeat-x top left; }
+
+#nav-top a:hover, body#press #t-press a {
     color: #333;
     padding-bottom: 4px;
     border-color: #727377;
